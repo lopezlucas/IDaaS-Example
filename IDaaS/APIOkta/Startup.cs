@@ -39,6 +39,7 @@ namespace APIOkta
             {
                 options.Authority = authOptions.Value.Authority;
                 options.Audience = authOptions.Value.Audience;
+                options.IncludeErrorDetails = authOptions.Value.IncludeErrorDetails;
             });
 
             services.AddMvc();
