@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppOkta", "WebAppOkta\WebAppOkta.csproj", "{241D98D0-8912-4A02-A09A-053248F68ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppOkta", "WebAppOkta\WebAppOkta.csproj", "{241D98D0-8912-4A02-A09A-053248F68ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppCognito", "WebAppCognito\WebAppCognito.csproj", "{7097BA7E-438A-47FA-A5D8-91A9CBA9B7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppCognito", "WebAppCognito\WebAppCognito.csproj", "{7097BA7E-438A-47FA-A5D8-91A9CBA9B7C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIOkta", "APIOkta\APIOkta.csproj", "{C170DA70-7FA8-49F5-B79D-EC4038EF200F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7097BA7E-438A-47FA-A5D8-91A9CBA9B7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7097BA7E-438A-47FA-A5D8-91A9CBA9B7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7097BA7E-438A-47FA-A5D8-91A9CBA9B7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C170DA70-7FA8-49F5-B79D-EC4038EF200F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C170DA70-7FA8-49F5-B79D-EC4038EF200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C170DA70-7FA8-49F5-B79D-EC4038EF200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C170DA70-7FA8-49F5-B79D-EC4038EF200F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
